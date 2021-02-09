@@ -10,9 +10,19 @@ def index():
 def timeseriesforecasting():
 	return render_template("time-series-forecasting.html")
 
-@app.route('/developing-lstm-models-for-rime-series-forecasting')
+@app.route('/developing-lstm-models-for-time-series-forecasting')
 def lstmtimeseriesforecasting():
-	return render_template("developing-lstm-models-for-rime-series-forecasting.html")
+	return render_template("developing-lstm-models-for-time-series-forecasting.html")
+
+
+# @app.route('/developing-lstm-models-for-tsf')
+# def lstmtsf():
+# 	return render_template("developing-lstm-models-for-tsf.html")
+
+# @app.route('/tsf')
+# def tsf():
+# 	return render_template("tsf.html")
+
 
 if __name__ == '__main__':
 	app.run(debug=True)
