@@ -14,15 +14,9 @@ def timeseriesforecasting():
 def lstmtimeseriesforecasting():
 	return render_template("developing-lstm-models-for-time-series-forecasting.html")
 
-
-# @app.route('/developing-lstm-models-for-tsf')
-# def lstmtsf():
-# 	return render_template("developing-lstm-models-for-tsf.html")
-
-# @app.route('/tsf')
-# def tsf():
-# 	return render_template("tsf.html")
-
+@app.route('/temporal-data-forecasting-with-lstm')
+def temporaldataforecasting():
+	return render_template("temporal-data-forecasting-with-lstm.html")
 
 if __name__ == '__main__':
 	app.run(debug=True)
