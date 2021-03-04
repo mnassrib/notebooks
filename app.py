@@ -18,5 +18,13 @@ def lstmtimeseriesforecasting():
 def temporaldataforecasting():
 	return render_template("temporal-data-forecasting-with-lstm.html")
 
+@app.route('/time-series-forecasting-models-for-power-usage')
+def powerusageforecasting():
+	return render_template("time-series-forecasting-models-for-power-usage.html")
+
 if __name__ == '__main__':
 	app.run(debug=True)
+
+
+
+	
